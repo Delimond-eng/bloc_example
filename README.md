@@ -1,16 +1,25 @@
-# stm_bloc
+# Flutter_bloc explain
 
-A new Flutter project.
+Flutter bloc est un gestionnaire d'etat(state manager) !
+Pour utiliser à mieux bloc, il faut installer ces dependances :  
+# flutter_bloc,
+le package officiel pour flutter ou
+# bloc
+le package spécifique pour dart
+# equatable
+Le package qui permet de vous eviter de coder les methodes d'égalités et le hashCode !
+A titre d'exemple :
+En dart normalement si compare deux instance, cela va retourner *False*
+*
+    var todo1 = new Todo(id:1, task:"Lorem", description:"ipsum");
+    var todo2 = new Todo(id:1, task:"Lorem", description:"ipsum");
+    todo1==todo2 /*Avec dart ça retournera false*/
+*
 
-## Getting Started
+En revanche, avec l'utilisation du package *Equatable* ces genres de problèmes est géré automatique !
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Demarche à suivre
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Créer dans le dossier *lib* un dossier *bloc*, lequel va contenir vos *dossier bloc*
+dans ce petit projet, nous avons utilisé *todo* !

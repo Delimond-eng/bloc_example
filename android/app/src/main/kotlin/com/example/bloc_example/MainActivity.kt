@@ -1,4 +1,4 @@
-package com.gastdev.stm_bloc
+package com.example.bloc_example
 
 import io.flutter.embedding.android.FlutterActivity
 

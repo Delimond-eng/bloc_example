@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.gastdev" "\0"
-            VALUE "FileDescription", "stm_bloc" "\0"
+            VALUE "CompanyName", "com.example" "\0"
+            VALUE "FileDescription", "bloc_example" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "stm_bloc" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.gastdev. All rights reserved." "\0"
-            VALUE "OriginalFilename", "stm_bloc.exe" "\0"
-            VALUE "ProductName", "stm_bloc" "\0"
+            VALUE "InternalName", "bloc_example" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "bloc_example.exe" "\0"
+            VALUE "ProductName", "bloc_example" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

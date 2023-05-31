@@ -1,6 +1,6 @@
 {
-    "name": "stm_bloc",
-    "short_name": "stm_bloc",
+    "name": "bloc_example",
+    "short_name": "bloc_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
